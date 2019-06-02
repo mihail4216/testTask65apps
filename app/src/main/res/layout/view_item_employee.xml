@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_marginVertical="4dp"
+    android:elevation="3dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/avatarEmployee"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginVertical="10dp" />
+
+    <TextView
+        android:id="@+id/firstNameEmployee"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:layout_toRightOf="@+id/avatarEmployee" />
+
+    <TextView
+        android:id="@+id/lastNameEmployee"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_toRightOf="@id/firstNameEmployee" />
+
+
+    <TextView
+        android:id="@+id/yearsEmployee"
+        android:textColor="#000"
+        android:layout_below="@+id/firstNameEmployee"
+        android:layout_toRightOf="@+id/avatarEmployee"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
